@@ -16,8 +16,14 @@ public class Principal {
         /*Un objeto de tipo InstitucionEducativa*/
         
         InstitucionEducativa i1 = new InstitucionEducativa();
-        i1.est...
-        i1.est...
+        
+        i1.establecerNombre("Marlon");
+        i1.establecerTipoInstitucion("Shun");
+        i1.establecerNumeroAlumnos(5000);
+        i1.establecerNumeroDocentes(100);
+        i1.establecerNumeroSedes(60);
+        
+
         
         System.out.printf("%s     ", i1.);
     }
